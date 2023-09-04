@@ -1,0 +1,44 @@
+body .earth {
+  width: 20px;
+  height: 20px;
+  background-color: #00aaff;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: orbit-earth 10s linear infinite;
+}
+body .venus {
+  width: 18px;
+  height: 18px;
+  background-color: #ffaa00;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: orbit-venus 10s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes orbit-earth {
+  0% {
+    transform: translateX(-50%) rotate(0deg) translateY(100px);
+  }
+  100% {
+    transform: translateX(-50%) rotate(360deg) translateY(100px);
+  }
+}
+@keyframes orbit-venus {
+  0% {
+    transform: translateX(-50%) rotate(0deg) translateY(75px);
+  }
+  100% {
+    transform: translateX(-50%) rotate(360deg) translateY(75px);
+  }
+}/*# sourceMappingURL=animation.css.map */
