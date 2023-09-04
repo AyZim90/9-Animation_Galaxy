@@ -10,7 +10,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
   overflow: hidden;
 }
 
@@ -37,8 +36,8 @@ body {
 }
 
 .earth {
-  width: 20px;
-  height: 20px;
+  width: 23px;
+  height: 23px;
   background-color: #00aaff;
   border-radius: 50%;
   position: absolute;
@@ -49,8 +48,8 @@ body {
 }
 
 .venus {
-  width: 18px;
-  height: 18px;
+  width: 19px;
+  height: 19px;
   background-color: #ffaa00;
   border-radius: 50%;
   position: absolute;

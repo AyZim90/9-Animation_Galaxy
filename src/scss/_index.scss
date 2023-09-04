@@ -4,7 +4,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
     overflow: hidden;
 }
 .sun {
@@ -23,13 +22,13 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    border: 1px dashed white;
+    border: 1px solid white;
     border-radius: 50%;
     animation: rotate 10s linear infinite;
 }
 .earth {
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
     background-color: #00aaff;
     border-radius: 50%;
     position: absolute;
@@ -39,9 +38,9 @@ body {
     animation: orbit-earth 10s linear infinite;
 }
 .venus {
-    width: 18px;
-    height: 18px;
-    background-color: #ffaa00;
+    width: 19px;
+    height: 19px;
+    background-color: #ffaa0073;
     border-radius: 50%;
     position: absolute;
     top: 0;
